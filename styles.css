@@ -60,6 +60,18 @@ a.active {
   background: #008000;        /* green */
   color: #fff;
 }
+
+.shots {
+  display: grid;
+  gap: 1.2rem;
+  margin-top: 2rem;
+}
+.shots img {
+  max-width: 100%;
+  border-radius: 0.4rem;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.6);
+}
+
 footer {
   margin-top: auto;
   padding: 1rem;
@@ -88,16 +100,16 @@ footer a {
     margin-top: clamp(2.5rem, 7vh, 3.5rem);
   }
   p {
-    font-size: clamp(0.9rem, 2.2vw, 1.6rem);
+    font-size: clamp(1rem, 3vw, 1.8rem);
   }
 }
 
 @media (max-width: 600px) {
   h1 {
-    font-size: clamp(1.2rem, 8vw, 2.5rem);
+    font-size: clamp(1.2rem, 7vw, 2rem);
     margin-top: clamp(2rem, 9vh, 3rem);
   }
   p {
-    font-size: clamp(0.85rem, 3vw, 1.3rem);
+    font-size: clamp(1rem, 5vw, 1.6rem);
   }
 }
