@@ -27,6 +27,7 @@ h2 {
 }
 
 p {
+  text-align: center;
   font-size: clamp(1.25rem, 3.4vw, 2.4rem);
   line-height: 1.6;
   margin: 1.1rem 0;
@@ -71,7 +72,7 @@ a.active {
 
 .shots img {
   width: 100%;
-  max-height: 520px;
+  max-height: 1140px;
   object-fit: cover;
   border-radius: 0.45rem;
   box-shadow: 0 4px 10px rgba(0, 0, 0, 0.6);
