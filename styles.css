@@ -59,12 +59,14 @@ ul {
   width: 95%;
   max-width: 1200px;
   margin: 1rem auto;
-  padding: 0 0 0 0.5rem;
+  padding: 0 0 0 0.6rem;
 }
   
-ul li { margin: 0.6rem 0; }
-  
-ul li p { margin-block: 0; }
+ul li { 
+  margin: 0.6rem 0;
+  margin-block: 0;
+  font-size: clamp(0.9rem, 2vw, 1.8rem);
+}
 
 a {
   color: #008000;
@@ -117,7 +119,7 @@ a.active {
 
 footer {
   flex-shrink: 0;
-  width: 95%;
+  width: 99%;
   padding: 1.2rem 0.6rem;
   background: #ffd700;
   border-top: 0.08vw solid #000;
@@ -154,6 +156,9 @@ footer a {
   p {
     font-size: clamp(0.8rem, 2.5vw, 1.6rem);
   }
+  ul li { 
+    font-size: clamp(0.7rem, 2.2vw, 1.4rem);
+  }
 }
 
       
@@ -170,5 +175,8 @@ footer a {
   }
   p {
     font-size: clamp(1.15rem, 2.1vw, 1.7rem);
+  }
+  ul li { 
+    font-size: clamp(1.1rem, 2vw, 1.6rem);
   }
 }
