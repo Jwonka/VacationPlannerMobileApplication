@@ -149,6 +149,13 @@ footer a {
   }
 }
 
+@media (min-width: 1200px) {
+  .shots img {
+    width: 80%;
+    margin-inline: auto;
+  }
+}
+
 @media (max-width: 1024px) {
   h1 {
     font-size: clamp(1.3rem, 5vw, 2.5rem);
