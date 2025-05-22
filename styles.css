@@ -63,7 +63,7 @@ ul {
 }
   
 ul li { 
-  margin: 0.6rem 0;
+  margin: 0.8rem 0;
   margin-block: 0;
   font-size: clamp(0.9rem, 2vw, 1.8rem);
 }
@@ -120,13 +120,14 @@ a.active {
 footer {
   flex-shrink: 0;
   width: 99%;
-  padding: 1.2rem 0.6rem;
+  padding: 0.6rem;
   background: #ffd700;
   border-top: 0.08vw solid #000;
   text-align: center;
 }
 
 footer p {
+  text-align: center;
   color: #000;
   margin: 0;
   font-style: italic;
