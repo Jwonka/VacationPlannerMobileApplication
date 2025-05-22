@@ -80,11 +80,6 @@ a.active {
   font-weight: 700;
 }
 
-a:hover {
-  color: #008000;
-}
-
-
 .btn {
   display: inline-block;
   background: #ffd700;
@@ -149,8 +144,11 @@ footer p {
 }
 
 footer a {
-  text-decoration-color: #002D62;
   font-weight: 600;
+}
+
+footer a.active {
+  color: #002D62;
 }
 
 @media (min-width: 1400px) {
