@@ -114,6 +114,7 @@ a.active {
   height: auto;
   aspect-ratio: 9/16;
   object-fit: contain;
+  margin: auto;
   border-radius: 0.45rem;
 }
 
@@ -149,11 +150,11 @@ footer a {
   }
 }
 
-@media (min-width: 1200px) {
-  .shots img {
-    width: 60%;
-    height: auto
-    margin: auto;
+@media (min-width:1200px){
+  .shots{
+    grid-template-columns:repeat(4,1fr);
+    max-width:1600px;
+    margin-inline:auto;
   }
 }
 
@@ -167,16 +168,6 @@ footer a {
   }
   ul li { 
     font-size: clamp(0.7rem, 2.2vw, 1.4rem);
-  }
-}
-
-      
-@media (min-width: 700px) {
-  .shots {
-    grid-template-columns: repeat(2, 1fr);
-    width: 50%;
-    height: auto
-    margin: auto;
   }
 }
 
