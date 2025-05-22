@@ -1,4 +1,8 @@
-html { -webkit-text-size-adjust: 100%; }
+html {
+  -webkit-text-size-adjust: 100%;
+  -ms-text-size-adjust: 100%; 
+  text-size-adjust: 100%; 
+
 html,
 body {
   height: 100%;
@@ -9,6 +13,7 @@ body {
 body {
   display: flex;
   flex-direction: column;
+  min-height: 100vh;
   background: #000;
   font-family: Arial, Helvetica, sans-serif;
   color: #fff;
@@ -25,24 +30,23 @@ main {
 }
 
 h1 {
-  margin: clamp(2rem, 5vh, 4rem) 1rem 1rem;
-  margin-bottom: 1.25rem;
+  padding-top: clamp(2.5rem, 8vh, 5rem);
+  margin-bottom: clamp(2rem, 7vh, 4rem);
   text-align: center;
-  font-size: clamp(1.2rem, 3.5vw, 3.5rem);
+  font-size: clamp(1.5rem, 3.7vw, 3.7rem);
 }
 
 h2 {
   text-align: center;
-  font-size: clamp(1.3rem, 2.3vw, 3rem);
+  font-size: clamp(1.25rem, 2.5vw, 3.5rem);
   margin: 1rem;
 }
 
 p {
-  text-align: center;
-  font-size: clamp(1.1rem, 2.4vw, 2rem);
+  font-size: clamp(1.1rem, 2.2vw, 2rem);
   line-height: 1.6;
-  margin: 1rem;
-  max-width: 70ch;
+  margin: 1rem auto;
+  max-width: 90%;
   padding-inline: 0.5rem;
 }
 
@@ -97,6 +101,7 @@ footer {
   padding: 1rem;
   background: #ffd700;
   border-top: 0.08vw solid #000;
+  text-align: center;
 }
 
 footer p {
@@ -115,7 +120,10 @@ footer a {
 }
 
 @media (min-width: 1400px) {
-  p { font-size: clamp(1rem, 1.8vw, 1.75rem); }
+  p { 
+    font-size: clamp(1rem, 1.8vw, 1.75rem); 
+    max-width: 80%;
+  }
 }
 
 @media (max-width: 1024px) {
