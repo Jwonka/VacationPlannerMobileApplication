@@ -147,7 +147,7 @@ footer a {
   font-weight: 600;
 }
 
-footer a.active {
+footer a:hover {
   color: #002D62;
 }
 
