@@ -131,9 +131,6 @@ footer a {
   .shots {
     grid-template-columns: repeat(2, 1fr);
   }
-  p {
-    font-size: clamp(1.2rem, 2.2vw, 1.8rem);
-  }
 }
 
 @media (max-width: 600px) {
@@ -142,6 +139,6 @@ footer a {
     margin-top: clamp(2rem, 9vh, 3rem);
   }
   p {
-    font-size: clamp(1.1rem, 2.1vw, 1.7rem);
+    font-size: clamp(1.15rem, 2.1vw, 1.7rem);
   }
 }
