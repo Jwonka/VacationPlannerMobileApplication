@@ -2,6 +2,8 @@ html {
   -webkit-text-size-adjust: 100%;
   -ms-text-size-adjust: 100%; 
   text-size-adjust: 100%; 
+  overflow-x: hidden;
+}
 
 html,
 body {
@@ -120,7 +122,8 @@ a.active {
 
 footer {
   flex-shrink: 0;
-  width: 99%;
+  width: 98%;
+  margin: 0 auto;
   padding: 0.6rem;
   background: #ffd700;
   border-top: 0.08vw solid #000;
