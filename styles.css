@@ -25,13 +25,16 @@ main {
   display: flex;
   flex-direction: column;
   align-items: center;
-  padding: 0 1rem 2.5rem;
+  padding-inline: 1rem;
+  padding-bottom: 0;
+  width: 100%;
+  max-width: 1600px;
   margin-inline: auto;
 }
 
 h1 {
-  padding-top: clamp(2.5rem, 8vh, 5rem);
-  margin-bottom: clamp(2rem, 7vh, 4rem);
+  margin: clamp(2rem, 5vh, 4rem) 1rem 1rem;
+  margin-bottom: 1.25rem;
   text-align: center;
   font-size: clamp(1.5rem, 3.7vw, 3.7rem);
 }
@@ -46,7 +49,8 @@ p {
   font-size: clamp(1.1rem, 2.2vw, 2rem);
   line-height: 1.6;
   margin: 1rem auto;
-  max-width: 90%;
+  width: 95%;
+  max-width: 1200px;
   padding-inline: 0.5rem;
 }
 
@@ -98,7 +102,7 @@ a.active {
 footer {
   flex-shrink: 0;
   width: 100%;
-  padding: 1rem;
+  padding: 1.2rem 0.6rem;
   background: #ffd700;
   border-top: 0.08vw solid #000;
   text-align: center;
