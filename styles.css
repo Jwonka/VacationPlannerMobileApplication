@@ -1,74 +1,95 @@
+html,
 body {
-  display: flex;
-  flex-direction: column;
-  background-color: black;
   height: 100%;
   margin: 0;
   padding: 0;
-  font-family: Arial, Helvetica, sans-serif;
 }
 
-h1 {
-  margin-top: clamp(2rem, 5vh, 4rem);
-  margin-bottom: 1rem;
-  text-align: center;
-  font-size: clamp(1.2rem, 5vw, 4rem);
+body {
+  display: flex;
+  flex-direction: column;
+  background: #000;
+  font-family: Arial, Helvetica, sans-serif;
   color: #fff;
-  max-width: 100%; 
+}
+h1 {
+  margin: clamp(2rem, 5vh, 4rem) 1rem 1rem;
+  text-align: center;
+  font-size: clamp(1.5rem, 4vw, 4rem);
 }
 
 h2 {
   text-align: center;
   font-size: clamp(1.3rem, 2.3vw, 3rem);
-  margin: 1vw;
+  margin: 1rem;
 }
 
 p {
   text-align: center;
-  color: #fff;
-  font-size: clamp(1.1rem, 2vw, 2rem);
+  font-size: clamp(1rem, 1.8vw, 2rem);
+  margin: 0.75rem 1rem;
 }
 
 a {
-  color: green;
+  color: #008000;
   text-decoration: none;
 }
 
 a.active {
-  text-shadow: 0.2vw 0.2vw 0.2vw;
-  font-weight: bold;
+  text-shadow: 0.15rem 0.15rem 0.15rem rgba(0, 0, 0, 0.5);
+  font-weight: 700;
 }
 
 button {
   width: 25%;
-  border: 0.08vw black solid;
+  border: 0.08vw solid #000;
   border-radius: 0.25vw;
-  background-color: gold;
+  background: var(--gold);
   box-sizing: border-box;
+  padding: 0.5rem 1rem;
+  cursor: pointer;
 }
 
 button:hover {
-  background-color: green;
+  background: #008000;
 }
 
 footer {
   margin-top: auto;
-  margin-left: 1vw;
-  margin-right:  1vw;
-  padding: 1vw;
-  border: 0.08vw black solid;
-  background-color: gold;
-  border-radius: 0.25vw;
+  padding: 1rem;
+  background: #ffd700;
+  border-top: 0.08vw solid #000;
 }
 
 footer p {
-  text-align: center;
-  font-size: clamp(0.49rem, 1.58vw, 1.78rem);
-  margin: 0 0;
+  color: #000;
+  margin: 0;
+  font-size: clamp(0.75rem, 1.6vw, 1rem);
   font-style: italic;
 }
 
-footer p a {
-  font-size: clamp(0.5rem, 1.6vw, 1.8rem);
+footer a {
+  color: #000;
   font-style: normal;
+  text-decoration: underline;
+}
+
+@media (max-width: 1024px) {
+  h1 {
+    font-size: clamp(1.4rem, 6vw, 3rem);
+    margin-top: clamp(2.5rem, 7vh, 3.5rem);
+  }
+  p {
+    font-size: clamp(0.9rem, 2.2vw, 1.6rem);
+  }
+}
+
+@media (max-width: 600px) {
+  h1 {
+    font-size: clamp(1.2rem, 8vw, 2.5rem);
+    margin-top: clamp(2rem, 9vh, 3rem);
+  }
+  p {
+    font-size: clamp(0.85rem, 3vw, 1.3rem);
+  }
 }
