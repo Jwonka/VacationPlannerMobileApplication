@@ -47,11 +47,11 @@ h2 {
 
 p {
   font-size: clamp(1.1rem, 2.2vw, 2rem);
-  line-height: 1.6;
+  line-height: 1.25;
   margin: 1rem auto;
   width: 95%;
   max-width: 1200px;
-  padding-inline: 0.5rem;
+  padding-inline: 0.25rem;
 }
 
 ul {
@@ -59,13 +59,14 @@ ul {
   width: 95%;
   max-width: 1200px;
   margin: 1rem auto;
-  padding: 0 0 0 0.6rem;
+  padding: 0 0 0 0.4rem;
 }
   
 ul li { 
   margin: 0.8rem 0;
   margin-block: 0;
   font-size: clamp(0.9rem, 2vw, 1.8rem);
+  padding-inline: 0.1rem;
 }
 
 a {
