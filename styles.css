@@ -47,6 +47,12 @@ h2 {
   margin: 1.25rem;
 }
 
+.listHeadline {
+  text-align: center;
+  font-size: clamp(1.2rem, 2.3vw, 2.5rem);
+  margin: 1rem;
+}
+
 p {
   font-size: clamp(1.1rem, 2.2vw, 2rem);
   line-height: 1.25;
@@ -156,6 +162,9 @@ footer a:hover {
     text-align: center;
     font-size: clamp(1rem, 1.8vw, 1.75rem); 
   }
+  .listHeadline {
+    font-size: clamp(1.1rem, 1.9vw, 1.9rem);
+  }
 }
 
 @media (min-width:1200px){
@@ -174,6 +183,9 @@ footer a:hover {
   p {
     font-size: clamp(0.8rem, 2.5vw, 1.6rem);
   }
+  .listHeadline {
+    font-size: clamp(0.9rem, 2.6vw, 1.7rem);
+  }
   ul li { 
     font-size: clamp(0.7rem, 2.2vw, 1.4rem);
   }
@@ -183,6 +195,9 @@ footer a:hover {
   h1 {
     font-size: clamp(0.9rem, 2.5vw, 1.5rem);
     margin-top: clamp(2rem, 9vh, 3rem);
+  }
+  .listHeadline {
+    font-size: clamp(1.2rem, 2.2vw, 1.8rem);
   }
   p {
     font-size: clamp(1.15rem, 2.1vw, 1.7rem);
