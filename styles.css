@@ -48,7 +48,6 @@ h2 {
 }
 
 .listHeadline {
-  text-align: center;
   font-size: clamp(1.2rem, 2.3vw, 2.5rem);
   margin: 1rem;
 }
@@ -182,9 +181,6 @@ footer a:hover {
   }
   p {
     font-size: clamp(0.8rem, 2.5vw, 1.6rem);
-  }
-  .listHeadline {
-    font-size: clamp(0.9rem, 2.6vw, 1.7rem);
   }
   ul li { 
     font-size: clamp(0.7rem, 2.2vw, 1.4rem);
