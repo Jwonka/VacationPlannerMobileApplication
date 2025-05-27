@@ -47,6 +47,12 @@ h2 {
   margin: 1.25rem;
 }
 
+.listHeadline {
+  text-align: center;
+  font-size: clamp(1.1rem, 2.2vw, 3rem);
+  margin: 1rem;
+}
+
 p {
   font-size: clamp(1.1rem, 2.2vw, 2rem);
   line-height: 1.25;
