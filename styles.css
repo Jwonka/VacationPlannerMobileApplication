@@ -193,14 +193,14 @@ footer a:hover {
 
 @media (max-width: 600px) {
   h1 {
-    font-size: clamp(0.9rem, 2.5vw, 1.5rem);
+    font-size: clamp(1rem, 2.6vw, 1.65rem);
     margin-top: clamp(2rem, 9vh, 3rem);
   }
   .listHeadline {
-    font-size: clamp(1.2rem, 2.2vw, 1.8rem);
+    font-size: clamp(1.1rem, 2.1vw, 1.6rem);
   }
   p {
-    font-size: clamp(1.15rem, 2.1vw, 1.7rem);
+    font-size: clamp(1.1rem, 2.1vw, 1.6rem);
   }
   ul li { 
     font-size: clamp(1.1rem, 2vw, 1.6rem);
