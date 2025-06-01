@@ -52,7 +52,7 @@ Size ~ 5,164KB
 Android will prompt once to “Allow installs from unknown sources.” Accept to complete the installation.
 
 ## Quick Start Guide
-1. On your Android device,  download [`VacationPlanner‑v1.0.1.apk`](https://github.com/Jwonka/VacationPlannerMobileApplication/releases/download/v1.0.1/app-release.apk).
+1. On your Android device,  download [`VacationPlanner‑v1.0.2.apk`](https://github.com/Jwonka/VacationPlannerMobileApplication/releases/download/v1.0.2/app-release.apk).
 2. When prompted, allow your browser to install unknown apps **(one‑time toggle).**
 3. Tap the downloaded file to install.
 4. Launch **Vacation Planner** from your app drawer.
@@ -94,7 +94,7 @@ App‑level runtime permissions:
 - Build: Gradle 8, Android Plugin = 8.x
 
 ## Privacy
-All data is stored locally on‑device; no personal data ever leaves your phone. There is no remote server, cloud sync, or analytics in version 1.0.1.
+All data is stored locally on‑device; no personal data ever leaves your phone. There is no remote server, cloud sync, or analytics in version 1.0.2.
 
 ## License
 This project is licensed under the MIT [License](https://github.com/Jwonka/VacationPlannerMobileApplication/blob/main/LICENSE) – see the LICENSE file for details.
