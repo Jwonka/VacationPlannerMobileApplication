@@ -16,9 +16,9 @@
 
 [Build From Source](#build-from-source)
 
-[Requirements & Permissions](https://github.com/Jwonka/VacationPlannerMobileApplication/main/README.md#requirementspermissions)
+[Requirements & Permissions](https://github.com/Jwonka/VacationPlannerMobileApplication#requirementspermissions)
 
-[Tech Stack & Architecture](https://github.com/Jwonka/VacationPlannerMobileApplication/main/README.md#techstackarchitecture)
+[Tech Stack & Architecture](https://github.com/Jwonka/VacationPlannerMobileApplication#techstackarchitecture)
 
 [Privacy](#privacy)
 
