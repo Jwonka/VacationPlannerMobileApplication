@@ -40,7 +40,7 @@
 
 ## Preview
 
-<img src="assets/loginScreen1.jpg" alt="Log in screen" /> <img src="assets/searchReport1.jpg" alt="Search results for vacations" />
+<img src="assets/loginScreen.jpg" alt="Log in screen" /> <img src="assets/mainScreen.jpg" alt="Home Screen" /> <img src="assets/searchReport.jpg" alt="Search results for vacations" /> <img src="assets/vacationList.jpg" alt="List of vacations" /> <img src="assets/vacationDetails.jpg" alt="Details for excursions" />
  
 
 ## Download
