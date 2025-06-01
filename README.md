@@ -45,7 +45,7 @@
 
 ## Download
 
-File ~ sha256sum VacationPlanner‑v1.0.2.apk
+File ~ sha256sum app-release.apk
 
 Size ~ 5,164KB
 
