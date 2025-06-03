@@ -40,7 +40,7 @@
 
 ## Preview
 
-<img src="assets/loginScreen(540px).png" width="300" alt="Log in screen" /> <img src="assets/mainScreen(540px).png" width="300" alt="Home Screen" /> <img src="assets/searchReport(540px).png" width="300" alt="Search results for vacations" /> <img src="assets/vacationList(540px).png" width="300" alt="List of vacations" /> <img src="assets/vacationDetails(540px).png" width="300" alt="Details for vacations" /><img src="assets/excursionDetails(540px).png" width="300" alt="Details for excursions" />
+<img src="assets/loginScreen(540px).png" width="250" alt="Log in screen" /> <img src="assets/mainScreen(540px).png" width="250" alt="Home Screen" /> <img src="assets/searchReport(540px).png" width="250" alt="Search results for vacations" /> <img src="assets/vacationList(540px).png" width="250" alt="List of vacations" /> <img src="assets/vacationDetails(540px).png" width="250" alt="Details for vacations" /><img src="assets/excursionDetails(540px).png" width="250" alt="Details for excursions" />
  
 
 ## Download
