@@ -52,7 +52,7 @@ Size ~ 5,164KB
 Android will prompt once to “Allow installs from unknown sources.” Accept to complete the installation.
 
 ## Quick Start Guide
-1. On your Android device,  download [`VacationPlanner‑v1.0.2.apk`](https://github.com/Jwonka/VacationPlannerMobileApplication/releases/download/v1.0.2/app-release.apk).
+1. On your Android device,  download [`VacationPlanner‑v1.0.3.apk`](https://github.com/Jwonka/VacationPlannerMobileApplication/releases/download/v1.0.3/app-release.apk).
 2. When prompted, allow your browser to install unknown apps **(one‑time toggle).**
 3. Tap the downloaded file to install.
 4. Launch **Vacation Planner** from your app drawer.
